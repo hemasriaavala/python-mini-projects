@@ -1,14 +1,3 @@
-#-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
-#
-# Author:      prana
-#
-# Created:     31-10-2025
-# Copyright:   (c) prana 2025
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
-
 def convert_temperature(value, unit_from, unit_to):
     if unit_from == "C" and unit_to == "F":
         return (value * 9/5) + 32
@@ -52,3 +41,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
